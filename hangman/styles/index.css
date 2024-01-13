@@ -241,6 +241,15 @@ video {
   display: none;
 }
 
+use {
+  width: inherit;
+  height: inherit;
+  color: inherit;
+  fill: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+}
+
 .over-container {
   width: 100vw;
   height: 100vh;
