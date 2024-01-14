@@ -47,36 +47,42 @@
       top: 93px;
       right: 0px;
       aspect-ratio: 1/1;
+      opacity: 0;
     }
 
     &_body {
       width: 3.7px;
       top: 129px;
       right: 29px;
+      opacity: 0;
     }
 
     &_left-hand {
       top: 105px;
       right: 32px;
       width: 42px;
+      opacity: 0;
     }
 
     &_right-hand {
       top: 105px;
       right: -12px;
       width: 42px;
+      opacity: 0;
     }
 
     &_left-leg {
       right: 30px;
       bottom: 11px;
       width: 42px;
+      opacity: 0;
     }
 
     &_right-leg {
       right: -9px;
       bottom: 11px;
       width: 42px;
+      opacity: 0;
     }
   }
 
