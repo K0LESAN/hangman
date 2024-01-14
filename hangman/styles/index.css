@@ -322,3 +322,48 @@ use {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.quiz {
+  max-width: 440px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.quiz__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+.quiz__hint {
+  margin-bottom: 7px;
+  font-weight: 700;
+}
+.quiz__guesses {
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.quiz__guesses_counter {
+  color: #fe0020;
+}
+
+.answer__item {
+  width: 20px;
+  border-bottom: 3px solid black;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.keyboard__item {
+  width: 40px;
+  border-radius: 20%;
+  aspect-ratio: 1/1;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #5455ac;
+}
