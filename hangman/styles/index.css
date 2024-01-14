@@ -269,3 +269,56 @@ use {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.gallows {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gallows__wrapper {
+  position: relative;
+  margin-bottom: 5px;
+}
+.gallows__image {
+  width: 220px;
+  aspect-ratio: 353/581;
+}
+.gallows__limb {
+  position: absolute;
+}
+.gallows__limb_head {
+  width: 63px;
+  top: 93px;
+  right: 0px;
+  aspect-ratio: 1/1;
+}
+.gallows__limb_body {
+  width: 3.7px;
+  top: 129px;
+  right: 29px;
+}
+.gallows__limb_left-hand {
+  top: 105px;
+  right: 32px;
+  width: 42px;
+}
+.gallows__limb_right-hand {
+  top: 105px;
+  right: -12px;
+  width: 42px;
+}
+.gallows__limb_left-leg {
+  right: 30px;
+  bottom: 11px;
+  width: 42px;
+}
+.gallows__limb_right-leg {
+  right: -9px;
+  bottom: 11px;
+  width: 42px;
+}
+.gallows__title {
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
