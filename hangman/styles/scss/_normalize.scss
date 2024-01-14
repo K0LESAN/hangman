@@ -243,8 +243,8 @@ video {
 }
 
 use {
-  width: inherit;
-  height: inherit;
+  display: block;
+  width: 100%;
   color: inherit;
   fill: inherit;
   stroke: inherit;
