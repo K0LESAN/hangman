@@ -269,6 +269,11 @@ use {
   padding-left: 20px;
   padding-right: 20px;
 }
+@media screen and (max-width: 780px) {
+  .container {
+    flex-direction: column;
+  }
+}
 
 .gallows {
   display: flex;
@@ -327,7 +332,9 @@ use {
   max-width: 440px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 .quiz__wrapper {
   display: flex;
@@ -366,4 +373,9 @@ use {
   color: #ffffff;
   text-transform: uppercase;
   background-color: #5455ac;
+}
+@media screen and (max-width: 500px) {
+  .keyboard__item {
+    width: 37px;
+  }
 }

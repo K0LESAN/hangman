@@ -18,6 +18,10 @@
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+
+  @media screen and (max-width: 780px) {
+    flex-direction: column;
+  }
 }
 
 .gallows {
@@ -87,7 +91,9 @@
   max-width: 440px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+  text-align: center;
 
   &__wrapper {
     display: flex;
@@ -132,5 +138,9 @@
     color: #ffffff;
     text-transform: uppercase;
     background-color: #5455ac;
+
+    @media screen and (max-width: 500px) {
+      width: 37px;
+    }
   }
 }
