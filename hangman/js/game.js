@@ -12,7 +12,4 @@ function startGame() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', startGame, {
-  passive: true,
-  once: true
-});
+startGame();
