@@ -391,3 +391,50 @@ use {
     width: 37px;
   }
 }
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modal_open {
+  display: flex;
+}
+.modal__wrapper {
+  max-width: 500px;
+  border-radius: 15px;
+  padding: 75px;
+  text-align: center;
+  background-color: gray;
+}
+.modal__title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.modal__title_win {
+  color: green;
+}
+.modal__title_lose {
+  color: red;
+}
+.modal__subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.modal__reload {
+  border: 2px solid black;
+  border-radius: 60%;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
