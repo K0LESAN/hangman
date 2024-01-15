@@ -29,7 +29,7 @@ export default class {
 
   newGame(modal) {
     modal.classList.remove('modal_open');
-    document.body.overflow = 'auto';
+    document.body.style.overflow = 'auto';
 
     for (const button of this.keyboard.children) {
       button.disabled = false;
@@ -57,7 +57,7 @@ export default class {
     const result = status ? 'Win' : 'Lose';
 
     modal.classList.add('modal_open');
-    document.body.overflow = 'hidden';
+    document.body.style.overflow = 'hidden';
 
     modalTitle.textContent = `You ${result}`;
     correctAnswer.textContent = sessionStorage.getItem('answer');
