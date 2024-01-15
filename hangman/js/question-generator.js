@@ -4,6 +4,8 @@ function generateAnswerBlock(answer) {
   const answerBlock = document.querySelector('.answer');
   const answerLength = answer.length;
 
+  answerBlock.innerHTML = '';
+
   for (let index = 0; index < answerLength; index++) {
     const letter = document.createElement('div');
     letter.classList.add('answer__item');
@@ -34,3 +36,5 @@ function generateRandomAnswer() {
 }
 
 document.addEventListener('DOMContentLoaded', generateRandomAnswer);
+
+export { generateRandomAnswer };
