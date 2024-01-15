@@ -35,6 +35,9 @@ function generateRandomAnswer() {
   document.querySelector('.quiz__question').textContent = question;
 }
 
-document.addEventListener('DOMContentLoaded', generateRandomAnswer);
+document.addEventListener('DOMContentLoaded', generateRandomAnswer, {
+  once: true,
+  passive: true
+});
 
 export { generateRandomAnswer };
