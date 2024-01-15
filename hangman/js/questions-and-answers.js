@@ -12,20 +12,12 @@ export default [
     answer: 'Aurum'
   },
   {
-    question: 'What is the tallest mountain in the world?',
-    answer: 'Mount Everest'
-  },
-  {
     question: 'What is the primary language spoken in Brazil?',
     answer: 'Portuguese'
   },
   {
     question: 'What is the currency of Japan?',
     answer: 'Yen'
-  },
-  {
-    question: 'What is the largest ocean in the world?',
-    answer: 'Pacific Ocean'
   },
   {
     question: 'What is the capital of Australia?',
