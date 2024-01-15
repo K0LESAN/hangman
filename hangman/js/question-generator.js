@@ -15,7 +15,7 @@ function generateAnswerBlock(answer) {
 
 function generateRandomAnswer() {
   const length = data.length;
-  const previousAnswer = sessionStorage.getItem('previousAnswer');
+  const previousAnswer = sessionStorage.getItem('answer');
   const randomIndex = () => Math.floor(Math.random() * length);
   let questionAndAnswer = data[randomIndex()];
 
@@ -29,7 +29,7 @@ function generateRandomAnswer() {
 
   console.log(answer);
 
-  sessionStorage.setItem('previousAnswer', answer);
+  sessionStorage.setItem('answer', answer);
   document.querySelector('.quiz__question').textContent = question;
 }
 
