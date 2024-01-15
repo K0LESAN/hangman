@@ -134,6 +134,10 @@ export default class {
 
   findButton(key) {
     if (!/^[a-z]{1}$/.test(key)) {
+      if (/^\p{L}$/u.test(key)) {
+        alert('Please switch the layout to English!');
+      }
+
       return null;
     }
 
