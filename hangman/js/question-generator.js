@@ -27,6 +27,8 @@ function generateRandomAnswer() {
 
   generateAnswerBlock(answer);
 
+  console.log(answer);
+
   sessionStorage.setItem('previousAnswer', answer);
   document.querySelector('.quiz__question').textContent = question;
 }
