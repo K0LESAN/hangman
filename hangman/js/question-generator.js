@@ -7,7 +7,7 @@ function generateAnswerBlock(answer) {
   for (let index = 0; index < answerLength; index++) {
     const letter = document.createElement('div');
     letter.classList.add('answer__item');
-    letter.setAttribute('data-letter', answer[index].toLowerCase());
+    letter.setAttribute('data-letter', answer[index]);
 
     answerBlock.append(letter);
   }
